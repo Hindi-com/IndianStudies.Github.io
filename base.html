@@ -6,22 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indian Studies Website</title>
+    <link href="./home.css" rel="stylesheet" type="text/css" />
     <meta name="description" content="Indian Studies Website">
     <meta name="author" content="Dohui, Gangmin, Jungmin">
     <!--icon 삽입시, css삽입시  link삽입하기 <link rel="icon">-->
 </head>
 
 <body>
-    {% block contents %}
-    {% endblock %}
-    <!--header-->
     <header id="header">
         <div class="header__logo">
             <h1>WE<br>ARE<br>INDIAN STUDIES</h1>
             <h3>한국외국어대학교 인도학과</h3>
         </div>
-        <div class="header__login">
-            <h2>Login</h2>
+        <div class="login_link">
+            <h2 element id="login"><a class="login_link" href="login.html"
+                    style="color: black; text-decoration-line:none;">Login</a></h2>
         </div>
     </header>
     <!--navbar-->
