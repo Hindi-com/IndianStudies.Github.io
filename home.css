@@ -1,0 +1,10 @@
+h3 {
+  display: inline-block;
+}
+
+#login {
+  display: lnline-block;
+  font-size: 1.5rem;
+  float: right;
+  color: black;
+}
