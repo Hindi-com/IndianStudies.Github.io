@@ -4,16 +4,16 @@
 <body>
     {% block content %}
     <section class=home-article>
-        <h2><br>인도학과 홈페이지에 오신 것을 환영합니다.</h2>
-        <h4><br>인도학과에서는 인도의 주 사용언어인 힌디어 뿐만 아니라 지역학 과목을 함께 공부하여 인도 지역 전문가 양성을 목표로 합니다</h4>
+        <div class="home-article-welcome"><br>인도학과 홈페이지에 오신 것을 환영합니다.</div>
+        <div class="home-article-text"><br>인도학과에서는 인도의 주 사용언어인 힌디어 뿐만 아니라 지역학 과목을 함께 공부하여 인도 지역 전문가 양성을 목표로 합니다</div>
         <br>
         <ul class=home-article-content>
-            <li><img scr="{% static 'images/mainpage.png'%}" alt="7+1 program">Delhi 대학과의 7+1 프로그램</li>
-            <li><img scr=" alt="방학 집중연수 프로그램">J.NU 대학과의 방학 집중연수 프로그램
-            <li><img scr="images/" alt="특수외국어 진흥 사업">특수외국어진흥 지원 사업</li>
-            <li><img scr="images/" alt="다양한 학과 활동">다양한 학과 활동</li>
+            <li><img class="home-article-content-images" src="{% static 'images/delhiuniv.png' %}">Delhi 대학과의 7+1 프로그램</li>
+            <li><img class="home-article-content-images" scr="images/" alt="방학 집중연수 프로그램">J.NU 대학과의 방학 집중연수 프로그램
+            <li><img class="home-article-content-images" scr="images/" alt="특수외국어 진흥 사업">특수외국어진흥 지원 사업</li>
+            <li><img class="home-article-content-images" scr="images/" alt="다양한 학과 활동">다양한 학과 활동</li>
         </ul>
-        <ul class=home-article-content>
+        <ul class=home-article-content-link>
             <li><img scr="images/" alt="교수진 소개">교수진 소개</li>
             <li><img scr="images/" alt="교과 과정">교과 과정</li>
             <li><img scr="images/" alt="신입생 장학제도">신입생 장학제도ㅋㅋㅋㅋ</li>
