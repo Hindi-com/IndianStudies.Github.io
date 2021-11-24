@@ -42,12 +42,11 @@
     list-style: none;
     text-align: center;
     justify-content: center;
-
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(2, 500px);
+    grid-template-columns: repeat(2, 400px);
     grid-auto-rows: mininum(500px, auto);
-    grid-gap: 20px 40px
+    grid-gap: 1rem;
 }
 
 .home-article-content-link {
@@ -56,8 +55,6 @@
     justify-content: center;
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    width: 10rem;
-    height: 10rem;
 }
 
 .home-article-welcome {
@@ -68,9 +65,19 @@
 .home-article-text {
     font-size: var(--font-small);
     margin-left: 3rem;
+    margin-bottom: 5rem;
 }
 
 .home-article-content-images {
     width: 20rem;
     height: 15rem;
+}
+
+@media (hover: none) { 
+    .location-title {
+        opacity: 1;
+    }
+    .location-image img {
+        filter: blur(2px);
+    }
 }
