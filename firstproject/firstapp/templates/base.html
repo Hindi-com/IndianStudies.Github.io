@@ -52,7 +52,11 @@
         </div>
     </nav>
     <li class="nav-image">
-        <img scr="images/" alt="타지마할과 랄낄라">Welcome to Indian Studies!</li>
+        <img
+        sylte="width:100%; heght: 30%;"
+        scr="{% static 'images/mainpage.png' %}"
+        alt="타지마할과 랄낄라"
+        >Welcome to Indian Studies!</li>
     </li>
 
     <div class="container">
@@ -60,7 +64,28 @@
         {% endblock %}
     </div>
 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-container-content">
+                <div style="padding-bottom: 15px">
+                    &copy; COPYRIGHT © 2021 HUFS Indian Studies ALL RIGHT
+                    RESERVED<br />dohui-ko, KKM, jungmin-lee Korea<br />
+                    Contact us : 공란
+                </div>
+                <button class="ui circular facebook icon button">
+                    <i class="facebook icon"></i>
+                </button>
+                <button class="ui circular linkedin icon button">
+                    <i class="linkedin icon"></i>
+                </button>
+                <button class="ui circular google plus icon button">
+                    <i class="google plus icon"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 
-</html>
+</html>`
