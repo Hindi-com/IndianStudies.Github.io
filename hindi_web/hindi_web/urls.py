@@ -19,5 +19,6 @@ from pages import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name="index.html")
+    path('', views.home, name="home"),
+    path('', views.introduction, name="introduction")
 ]
