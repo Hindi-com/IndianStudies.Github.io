@@ -5,4 +5,4 @@ def home(request):
     return render(request, "index.html")
 
 def introduction(request):
-    return render(render, "introduction-main.html")
+    return render(request, 'introduction-main.html')
