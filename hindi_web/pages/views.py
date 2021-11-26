@@ -6,3 +6,6 @@ def home(request):
 
 def introduction(request):
     return render(request, 'introduction-main.html')
+
+def community(request):
+    return render(request, 'community-main.html')

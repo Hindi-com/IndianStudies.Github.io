@@ -1,8 +1,22 @@
 .introduction-aside {
-    color: var(#4d4d4d);
 }
 
 .introduction-aside-list {
     list-style: none;
-    font-size: 20px;
+    margin: 10rem 55rem 20rem 12rem;
+    box-sizing: border-box;
+    background-color: var(--color-light-white);
+}
+
+.introduction-aside-list-title {
+    font-size: var(--font-mediun);
+    padding: 1rem;
+}
+
+.introduction-aside-list-text {
+    font-size: var(--font-regular);
+    padding: 0.5rem;
+}
+
+.introduction-greeting-content {
 }
