@@ -1,11 +1,8 @@
-.introduction-aside {
-}
-
 .introduction-aside-list {
     list-style: none;
     margin: 10rem 55rem 20rem 12rem;
     box-sizing: border-box;
-    background-color: var(--color-light-white);
+    background-color: tomato;
 }
 
 .introduction-aside-list-title {
@@ -16,7 +13,6 @@
 .introduction-aside-list-text {
     font-size: var(--font-regular);
     padding: 0.5rem;
-}
-
-.introduction-greeting-content {
+    box-sizing: border-box;
+    background-color: var(--color-light-white);
 }
