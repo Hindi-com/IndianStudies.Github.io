@@ -22,4 +22,5 @@ urlpatterns = [
     path('', views.home, name="home"),
     path('introduction/', views.introduction, name="introduction"),
     path('community/', views.community, name="community"),
+    path('login/', views.login, name="login"),
 ]
