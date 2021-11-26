@@ -1,6 +1,7 @@
 .introduction-aside-list {
     list-style: none;
     box-sizing: border-box;
+    background-color: thistle;
 }
 
 .introduction-aside-list-title {
