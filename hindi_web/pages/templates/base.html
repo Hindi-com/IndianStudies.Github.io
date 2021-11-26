@@ -35,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href=".">Home</a>
+                        <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page"
@@ -45,13 +45,12 @@
                         <a class="nav-link active" aria-current="page" href="{% url 'community' %}">Community</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Admisstion</a>
+                        <a class="nav-link" href="https://www.hufs.ac.kr/">Admisstion</a>
                     </li>
             </div>
         </div>
     </nav>
     <img id=mainpage-image src="{% static 'images/mainpage.png' %}">
-    <p>Welcome to Indian Studies!</p>
 
     {% block content %}
     {% endblock %}

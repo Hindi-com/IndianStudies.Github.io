@@ -7,7 +7,8 @@
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    border: 1px solid var(--color-black);
+    border: 1px solid var(--color-light-grey);
+    margin-top: 2rem;
     margin-bottom: 10rem;
 }
 
@@ -43,5 +44,28 @@
 .introduction-greeting-text {
     box-sizing: border-box;
     font-size: var(--font-small);
-    width: 400px;
+    width: 500px;
+}
+
+
+.community-notice-board{
+    margin: 1.5rem 2.5rem 2rem 2.5rem;
+}
+
+.community-notice-board-content{
+    border: solid 0.07rem lightgray;
+    width: 500px;
+    height: 10px;
+    background-color: white;
+    margin-top: 1rem;
+    font-size: var(--font-small);
+}
+
+.community-notice-board-title {
+    font-size: var(--font-mediun);
+}
+
+.page-nator {
+    display: flex;
+    justify-content: center;
 }

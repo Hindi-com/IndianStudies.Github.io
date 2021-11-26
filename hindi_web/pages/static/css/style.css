@@ -47,6 +47,8 @@
 #mainpage-image {
   width: 100em;
   height: 25em;
+  display: block;
+  margin: auto;
 }
 
 
