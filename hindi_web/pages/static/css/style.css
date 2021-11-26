@@ -4,10 +4,6 @@
   --color-grey: #616161;
   --color-black: #000000;
   --color-orange: #feb546;
-<<<<<<< Updated upstream
-=======
-  --color-white: #ffffff;
->>>>>>> Stashed changes
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
   --color-pink: #fe918d;
@@ -51,7 +47,6 @@
   width: 100em;
   height: 25em;
 }
-
 
 /* home-deco-images */
 .home_link {
@@ -201,10 +196,6 @@
 }
 
 .project__description h4:after {
-<<<<<<< Updated upstream
-  content: "";
-=======
->>>>>>> Stashed changes
   display: block;
   position: relative;
   left: 50%;
@@ -215,8 +206,7 @@
   background-color: var(--color-dark-white);
 }
 
-
 /* footer */
 .footer-container {
-    background-color: var(--color-light-white);
+  background-color: var(--color-light-white);
 }
