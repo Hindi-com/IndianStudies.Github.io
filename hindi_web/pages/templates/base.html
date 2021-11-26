@@ -27,6 +27,7 @@
     <span class="home_korean">한국외국어대학교 인도학과</span>
     <span class="login_link">
         <h2 element id="login">
+            <a class="login_link" href="login.html"
             <a class="login_link" href="./templates/login/login.html"
                 style="color: black; text-decoration-line:none;">Login</a>
         </h2>
@@ -36,18 +37,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href=".">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page"
-                            href="{% url 'introduction' %}">Introduction</a></a>
+                        <a class="nav-link active" aria-current="page" href="{% url 'introduction' %}">Introduction</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{% url 'community' %}">Community</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Admisstion</a>
+                        <a class="nav-link active" aria-current="page" href="#">Admission</a>
                     </li>
+                </ul>
             </div>
         </div>
     </nav>
