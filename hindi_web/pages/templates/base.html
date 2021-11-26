@@ -24,10 +24,10 @@
 <body id="body">
     <span><a class="home_link" href="./templates/home/index.html">
             WE<br>ARE<br>INDIAN STUDIES</a></span>
-    <span><a style="font-size: 24px"></a>한국외국어대학교 인도학과</span>
+    <span class="home_korean">한국외국어대학교 인도학과</span>
     <span class="login_link">
         <h2 element id="login">
-            <a class="login_link" href="login.html"
+            <a class="login_link" href="./templates/login/login.html"
                 style="color: black; text-decoration-line:none;">Login</a>
         </h2>
     </span>
@@ -39,7 +39,8 @@
                         <a class="nav-link active" aria-current="page" href=".">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{% url 'introduction' %}">Introduction</a></a>
+                        <a class="nav-link active" aria-current="page"
+                            href="{% url 'introduction' %}">Introduction</a></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{% url 'community' %}">Community</a>
