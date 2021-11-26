@@ -4,6 +4,7 @@
   --color-grey: #616161;
   --color-black: #000000;
   --color-orange: #feb546;
+  --color-white: #ffffff;
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
   --color-pink: #fe918d;
@@ -197,7 +198,6 @@
 }
 
 .project__description h4:after {
-  content: "";
   display: block;
   position: relative;
   left: 50%;

@@ -9,3 +9,6 @@ def introduction(request):
 
 def community(request):
     return render(request, 'community-main.html')
+
+def login(request):
+    return render(request, 'login.html')
